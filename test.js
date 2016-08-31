@@ -11,7 +11,7 @@ test('node', function (t) {
 })
 
 test('browser', function (t) {
-  t.plan(2)
+  t.plan(3)
 
   var document = new EventTarget()
   var ready = proxyquire('./', {
@@ -23,5 +23,8 @@ test('browser', function (t) {
   document.send('DOMContentLoaded')
 
   document.readyState = 'complete'
+  ready(t.pass)
+
+  document.readyState = 'interactive'
   ready(t.pass)
 })

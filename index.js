@@ -5,7 +5,8 @@ var document = require('global/document')
 module.exports = document.addEventListener ? ready : noop
 
 function ready (callback) {
-  if (document.readyState === 'complete') {
+  var state = document.readyState
+  if (state === 'complete' || state === 'interactive') {
     return setTimeout(callback, 0)
   }
 
