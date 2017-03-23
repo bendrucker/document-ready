@@ -1,8 +1,4 @@
-'use strict'
-
-var document = require('global/document')
-
-module.exports = document.addEventListener ? ready : noop
+module.exports = ready
 
 function ready (callback) {
   var state = document.readyState
@@ -14,5 +10,3 @@ function ready (callback) {
     callback()
   })
 }
-
-function noop () {}
