@@ -28,6 +28,5 @@
     "index.js"
   ],
   "dependencies": {
-    "global": "~4.3.0"
   }
 }
