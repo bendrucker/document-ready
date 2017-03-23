@@ -19,15 +19,13 @@
     "callback"
   ],
   "devDependencies": {
+    "browserify": "~14.1.0",
     "dom-event-target": "~1.0.0",
     "proxyquire": "~1.7.3",
     "standard": "^4.0.0",
     "tape": "^4.0.0"
   },
   "files": [
-    "index.js"
-  ],
-  "dependencies": {
-    "global": "~4.3.0"
-  }
+    "*.js"
+  ]
 }
