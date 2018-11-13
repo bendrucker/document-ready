@@ -1,4 +1,4 @@
-# document-ready [![Build Status](https://travis-ci.org/bendrucker/document-ready.svg?branch=master)](https://travis-ci.org/bendrucker/document-ready)
+# document-ready [![Build Status](https://travis-ci.org/bendrucker/document-ready.svg?branch=master)](https://travis-ci.org/bendrucker/document-ready) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/document-ready.svg)](https://greenkeeper.io/)
 
 > Document ready listener for modern browsers
 
