@@ -19,7 +19,7 @@
     "callback"
   ],
   "devDependencies": {
-    "browserify": "~14.1.0",
+    "browserify": "~16.5.1",
     "dom-event-target": "~1.0.0",
     "proxyquire": "~2.1.3",
     "standard": "^14.3.4",
