@@ -1,4 +1,4 @@
-# document-ready [![Build Status](https://travis-ci.org/bendrucker/document-ready.svg?branch=master)](https://travis-ci.org/bendrucker/document-ready)
+# document-ready
 
 > Document ready listener for modern browsers
 
